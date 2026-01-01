@@ -31,6 +31,11 @@ header > div span {
 
 
 }
+.side-ad {
+    position: absolute;
+    top: 10rem;
+    left: 2rem  ;
+}
 
 .top-content {
 
@@ -132,6 +137,10 @@ main {
     justify-content: center;
 }
 
+.about-me {
+    /*padding-bottom: 20rem;*/
+}
+
 .BoxOne {
     padding: 5px;
     align-self: center;
@@ -148,4 +157,12 @@ main {
 
 .descAndTitle {
     justify-items: start;
+}
+        @media screen and (max-width: 1250px) {
+
+.side-ad {
+    position: inherit;
+    /*top: 10rem;*/
+    /*left: 2rem  ;*/
+}
 }
